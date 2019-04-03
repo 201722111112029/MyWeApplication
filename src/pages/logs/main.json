@@ -1,0 +1,5 @@
+{
+  "navigationBarTitleText": "瞧瞧书单",
+  "i-cell-group": "../../dist/cell-group/index",
+  "i-cell": "../../dist/cell/index"
+}
