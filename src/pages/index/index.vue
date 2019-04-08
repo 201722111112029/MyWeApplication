@@ -63,6 +63,15 @@
         <i-grid-label>解压</i-grid-label>
     </i-grid-item>
 </i-grid>
+<i-panel title="书单推荐"> 
+    <view class="top-padding">
+<view v-for="item in shop" :key='item' class="top-padding">
+<i-card i-class="top-padding" title="卡片标题" extra="额外内容" thumb="cloud://book-a8926e.626f-book-a8926e/Chrysanthemum.jpg">
+    <view slot="content">为什么要读点哲学？这本书帮你摸到哲学的门。</view>
+    <view slot="footer">入门级哲学经典</view>
+</i-card>
+</view>
+</view>
 <i-card i-class="top-padding" title="卡片标题" extra="额外内容" thumb="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?cs=srgb&dl=blur-blurred-book-46274.jpg&fm=jpg">
     <view slot="content">为什么要读点哲学？这本书帮你摸到哲学的门。</view>
     <view slot="footer">入门级哲学经典</view>
@@ -83,6 +92,7 @@
     <view slot="content">点燃对生活的熊熊热情。</view>
     <view slot="footer">诗歌</view>
 </i-card>
+</i-panel > 
   </div>
 </template>
 
@@ -92,6 +102,7 @@ export default {
   data () {
     return {
       motto: 'Hello miniprograme',
+      shop: [],
       time: '2019年4月3日',
       userInfo: {
         nickName: 'mpvue',
@@ -108,6 +119,13 @@ export default {
   },
 
   created () {
+      const db = wx.cloud.database({ env: 'edu-868a10' })
+    db.collection('shop').get().then(
+      res => {
+        console.log(res.data)
+        this.shops = res.data
+      }
+    )
     // let app = getApp()
   }
 }
