@@ -1,28 +1,51 @@
 <template>
   <div>
-    @你的专属书单！
-    <i-cell-group>
-    <i-cell title="只显示箭头" is-link>只显示箭头</i-cell>
-    <i-cell title="跳转到首页" is-link url="../../../src/pages/dashboard/index">跳转到首页</i-cell>
-    <i-cell title="只有 footer 点击有效" is-link url="/pages/dashboard/index" only-tap-footer>这个只有footer点击有效</i-cell>
-    <i-cell title="开关">
-        <switch slot="footer" checked />
-    </i-cell>
-</i-cell-group>
+    <map
+      id="map"
+      longitude="114.347997"
+      latitude="30.571331"
+      scale="14"
+      :controls="controls"
+      @controltap="controltap($event)"
+      :markers="markers"
+      @markertap="markertap($event)"
+      :polyline="polyline"
+      @regionchange="regionchange($event)"
+      show-location
+      style="width: 100%; height: 100%;"
+    ></map>
   </div>
 </template>
 
 <script>
+export default {
+data () {
+    return {
+    markers: [{
+      iconPath: '/static/images/home.png',
+      id: 0,
+      latitude: 30.571331,
+      longitude: 114.347997,
+      width: 50,
+      height: 50
+    }],
+   }
+  },
+  methods: {
+      regionchange(event) {
+        console.log(event)
+      },
+      markertap(event) {
+        console.log(event)
+      },
+      controltap(event) {
+        console.log(event)
+      }
+  },
+  created:{
+  },
+}
 </script>
-
 <style>
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
-}
-
-.log-item {
-  margin: 10rpx;
-}
+body,html{height:100%}
 </style>
