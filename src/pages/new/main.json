@@ -1,3 +1,5 @@
 {
-  "navigationBarTitleText": "专属空间"
+  "navigationBarTitleText": "分享你的书单",
+  "i-input": "../../../static/dist/input/index"
+
 }

@@ -1,6 +1,9 @@
 <template>
-  <div @click="clickHandle">
-    你的书架上都有这些书
+  <div>
+           <i-input :value="name" title="书名" autofocus placeholder="名称" />
+           <i-input :value="introduction" title="关于本书" placeholder="介绍" />
+           <i-input :value="type" title="作品类型" placeholder="类型" />
+           <i-input :value="price" title="作品价格" placeholder="价格" />
   </div>
 </template>
 
@@ -10,12 +13,12 @@ import card from '@/components/card'
 export default {
   data () {
     return {
-      motto: 'Hello miniprograme',
-      userInfo: {
-        nickName: 'mpvue',
-        avatarUrl: 'http://mpvue.com/assets/logo.png'
-      }
+      name:"",
+      introduction:"",
+      type:"",
+      price:""
     }
+    
   },
 
   components: {
@@ -26,11 +29,7 @@ export default {
   },
 
   created () {
-        this.$http.get('https://www.baidu.com', 'param').then((res)=>{
-        console.log('res', res)
-      }).catch(err=>{
-      })
-    // let app = getApp()
+
   }
 }
 </script>

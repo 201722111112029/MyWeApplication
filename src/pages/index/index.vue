@@ -45,8 +45,8 @@
 </i-grid>
 
 <view v-for="bookList in bookList" :key='bookList'>
-<i-card  i-class="top-padding" :title="bookList.introduction" :extra="bookList.value" :thumb="bookList.webAddress">
-    <view slot="content" >{{bookList.name}}</view>
+<i-card  i-class="top-padding" :title="bookList.name" :extra="bookList.value" :thumb="bookList.webAddress">
+    <view slot="content" >{{bookList.introduction}}</view>
     <view slot="footer">{{bookList.type}}</view>
 </i-card>
 </view>
