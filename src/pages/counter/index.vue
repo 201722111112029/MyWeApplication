@@ -1,44 +1,39 @@
 <template>
-  <div class="counter-warp">
-    <p>Vuex counter：{{ count }}</p>
-    <p>
-      <button @click="increment">+</button>
-      <button @click="decrement">-</button>
-    </p>
+  <div>
+    <i-panel title="分类推荐">
+      <view>
+        <i-card i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
+            <view slot="content">推荐理由：{{item.remark}}</view>
+            <view slot="footer">地址：{{item.address}}</view>
+        </i-card>
+      </view>
+    </i-panel>
   </div>
 </template>
 
 <script>
-// Use Vuex
-import store from './store'
+
 
 export default {
-  computed: {
-    count () {
-      return store.state.count
+
+  data () {
+    return {
+      recommand: []
     }
   },
-  methods: {
-    increment () {
-      store.commit('increment')
-    },
-    decrement () {
-      store.commit('decrement')
-    }
+
+  onLoad (option){
+    console.log(option.type)
+    this.recommand = require('@/data/' + option.type + '.json')
+  },
+
+  created () {
   }
 }
 </script>
 
-<style>
-.counter-warp {
-  text-align: center;
-  margin-top: 100px;
-}
-.home {
-  display: inline-block;
-  margin: 100px auto;
-  padding: 5px 10px;
-  color: blue;
-  border: 1px solid blue;
+<style scoped>
+div >>> .split {
+  margin-bottom: 10pt;
 }
 </style>
