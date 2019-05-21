@@ -1,8 +1,8 @@
 [
-    {"id":1,"name":"蒙古大营烤全羊","address":"七星路十字路口","remark":"烤羊不错，要提前预约","img":"/static/images/1.png","type":1,"latitude": 30.576413,"longitude": 114.339437},
-    {"id":2,"name":"黄蜀郎鸡公煲","address":"后街","remark":"其他家的鸡公煲不好吃","img":"/static/images/1.png","type":4,"latitude": 30.579604,"longitude": 114.338552},
-    {"id":3,"name":"珰糖茶饮","address":"湖大琴园33号门面","remark":"附近最好喝的","img":"/static/images/1.png","type":3,"latitude": 30.573291,"longitude": 114.333172},
-    {"id":4,"name":"蜜雪冰城","address":"琴园路","remark":"很近，就在超市旁边","img":"/static/images/1.png","type":3,"latitude": 30.575157,"longitude": 114.332303},
-    {"id":5,"name":"新农秘制牛肉面馆","address":"教育部超市hd-16","remark":"新农是正门最好吃的店面之一","img":"/static/images/1.png","type":5,"latitude": 30.579535,"longitude": 114.330876},
-    {"id":6,"name":"留香居老北京涮羊肉","address":"现代科技学校","remark":"比较正宗","img":"/static/images/1.png","type":4,"latitude": 30.579369,"longitude": 114.326992}
+    {"id":1,"name":"我们仨","address":"杨绛","remark":"《我们仨》是钱钟书夫人杨绛撰写的家庭生活回忆录。","img":"/static/images/bookFour.png","type":1,"price":"￥50"},
+    {"id":2,"name":"苏菲的世界","address":"乔斯坦·贾德著","remark":"《苏菲的世界》既是小说又是哲学史，因此哲学是其贯穿始终的主题也就不奇怪了。哲学并非以那种无事可做的人进行深奥思考的面目出现，而是作为与生活相统一的事物而出现。","img":"/static/images/bookFour.png","type":2,"price":"￥50"},
+    {"id":3,"name":"目送","address":"龙应台","remark":"这些作品中温情的语言，如一剂醒脑益智的良药，使我们深陷尘世羁绊的心灵，一次次得到解脱和自省。","img":"/static/images/bookFour.png","type":3,"price":"￥50"},
+    {"id":4,"name":"三体","address":"刘慈欣","remark":"讲述了地球人类文明和三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。其第一部经过刘宇昆翻译后获得了第73届雨果奖最佳长篇小说奖。","img":"/static/images/bookFour.png","type":4,"price":"￥50"},
+    {"id":5,"name":"明朝那些事儿","address":"当年明月","remark":"语言幽默风趣。对明朝十七帝和其他王公权贵和小人物的命运进行全景展示，尤其对官场政治、战争、帝王心术着墨最多，并加入对当时政治经济制度、人伦道德的演义。","img":"/static/images/bookFour.png","type":5,"price":"￥50"},
+    {"id":6,"name":"即将更新","address":"即将更新","remark":"即将更新","img":"/static/images/bookFour.png","type":6,"price":"即将更新"}
 ]

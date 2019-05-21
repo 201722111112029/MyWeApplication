@@ -28,14 +28,13 @@
   </i-grid>
 
 <i-panel title="今日店主力推">
-<view v-for="bookList in bookList" :key='bookList'>
-<i-card @click="goType(bookList.type)" i-class="split" :title="bookList.name" :extra="bookList.value" :thumb="bookList.webAddress">
-    <view slot="content" >{{bookList.introduction}}</view>
-    <view slot="footer">{{bookList.type}}</view>
+<view v-for="item in recommand" :key='item'>
+<i-card @click="goType(item.type)" i-class="split" :title="item.name" :extra="item.price" :thumb="item.img">
+    <view slot="content" >推荐理由：{{item.remark}}</view>
+    <view slot="footer">作者{{item.address}}</view>
 </i-card>
 </view>
 </i-panel>
-
   </div>
 </template>
 
@@ -94,7 +93,7 @@ export default {
     )
 
     // let app = getApp()
-     wx.cloud.callFunction({ name: 'zheng' }).then(
+     wx.cloud.callFunction({ name: 'new_book' }).then(
       res => {console.log(res)}
 )
   }
