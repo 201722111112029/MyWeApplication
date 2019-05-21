@@ -1,0 +1,6 @@
+[
+    {"id":1,"name":"蔡明纬","address":"武车路322号","remark":"蔡明纬的热干面确实味道不错","img":"/static/images/1.png","type":5},
+    {"id":2,"name":"柳州螺蛳粉","address":"喻家湖148附37","remark":"味道还是很浓烈","img":"/static/images/1.png","type":5},
+    {"id":3,"name":"新农秘制牛肉面馆","address":"教育部超市hd-16","remark":"新农是正门最好吃的店面之一","img":"/static/images/1.png"},
+    {"id":4,"name":"宜客酸辣粉","address":"湖北大学后门","remark":"味道还可以","img":"/static/images/1.png","type":5}
+]

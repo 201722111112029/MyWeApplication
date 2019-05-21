@@ -27,64 +27,21 @@
       </i-grid-item>
   </i-grid>
 
-
-
-
-
-    <i-grid i-class="no-border">
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="../../static/images/bookFour.png" />
-        </i-grid-icon>
-        <i-grid-label>传记</i-grid-label>
-    </i-grid-item>
-        <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="../../static/images/bookFour.png" />
-        </i-grid-icon>
-        <i-grid-label>哲学</i-grid-label>
-    </i-grid-item>
-        <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="../../static/images/bookFour.png" />
-        </i-grid-icon>
-        <i-grid-label>催泪</i-grid-label>
-    </i-grid-item>
-</i-grid>
-<i-grid i-class="no-border">
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="../../static/images/bookFour.png" />
-        </i-grid-icon>
-        <i-grid-label>烧脑</i-grid-label>
-    </i-grid-item>
-        <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="../../static/images/bookFour.png" />
-        </i-grid-icon>
-        <i-grid-label>科幻</i-grid-label>
-    </i-grid-item>
-        <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="../../static/images/bookFour.png" />
-        </i-grid-icon>
-        <i-grid-label>历史</i-grid-label>
-    </i-grid-item>
-</i-grid>
-
+<i-panel title="今日店主力推">
 <view v-for="bookList in bookList" :key='bookList'>
-<i-card @click="goType(item.type)" i-class="split" :title="bookList.name" :extra="bookList.value" :thumb="bookList.webAddress">
+<i-card @click="goType(bookList.type)" i-class="split" :title="bookList.name" :extra="bookList.value" :thumb="bookList.webAddress">
     <view slot="content" >{{bookList.introduction}}</view>
     <view slot="footer">{{bookList.type}}</view>
 </i-card>
 </view>
-
+</i-panel>
 
   </div>
 </template>
 
 <script>
 import card from '@/components/card'
+import top from '@/data/top.json'
 export default {
   data () {
     return {
@@ -104,11 +61,11 @@ export default {
       interval: 5000,
       duration: 1000,   
        grids: [
-        {type:'文学',img:'static\images\bookFour.png',"url":'../counter/main?type=1'},
-        {type:'文学',img:'static\images\bookFour.png',"url":'../counter/main?type=2'},
-        {type:'文学',img:'static\images\bookFour.png',"url":'../counter/main?type=3'},
-        {type:'文学',img:'static\images\bookFour.png',"url":'../counter/main?type=4'},
-        {type:'文学',img:'static\images\bookFour.png',"url":'../counter/main?type=5'}
+        {type:'传记',img:'/static/images/bookFour.png',"url":'../counter/main?type=1'},
+        {type:'哲学',img:'/static/images/bookFour.png',"url":'../counter/main?type=2'},
+        {type:'催泪',img:'/static/images/bookFour.png',"url":'../counter/main?type=3'},
+        {type:'科幻',img:'/static/images/bookFour.png',"url":'../counter/main?type=4'},
+        {type:'历史',img:'/static/images/bookFour.png',"url":'../counter/main?type=5'}
       ],
       recommand: top
     }

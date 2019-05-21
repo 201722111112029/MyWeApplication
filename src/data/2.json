@@ -1,0 +1,5 @@
+[
+    {"id":1,"name":"良品铺子","address":"漫时区","remark":"很多小零食","img":"/static/images/1.png","type":2},
+    {"id":2,"name":"休闲零食铺子","address":"鑫三飞市场停车场","remark":"种类很多","img":"/static/images/1.png","type":2},
+    {"id":3,"name":"老婆最大便利零食","address":"396号福客茂F1","remark":"有打折，有点远","img":"/static/images/1.png","type":2}
+]

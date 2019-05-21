@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"蒙古大营烤全羊","address":"七星路十字路口","remark":"烤羊不错，要提前预约","img":"/static/images/1.png","type":1,"latitude": 30.576413,"longitude": 114.339437},
+    {"id":2,"name":"黄蜀郎鸡公煲","address":"后街","remark":"其他家的鸡公煲不好吃","img":"/static/images/1.png","type":4,"latitude": 30.579604,"longitude": 114.338552},
+    {"id":3,"name":"珰糖茶饮","address":"湖大琴园33号门面","remark":"附近最好喝的","img":"/static/images/1.png","type":3,"latitude": 30.573291,"longitude": 114.333172},
+    {"id":4,"name":"蜜雪冰城","address":"琴园路","remark":"很近，就在超市旁边","img":"/static/images/1.png","type":3,"latitude": 30.575157,"longitude": 114.332303},
+    {"id":5,"name":"新农秘制牛肉面馆","address":"教育部超市hd-16","remark":"新农是正门最好吃的店面之一","img":"/static/images/1.png","type":5,"latitude": 30.579535,"longitude": 114.330876},
+    {"id":6,"name":"留香居老北京涮羊肉","address":"现代科技学校","remark":"比较正宗","img":"/static/images/1.png","type":4,"latitude": 30.579369,"longitude": 114.326992}
+]

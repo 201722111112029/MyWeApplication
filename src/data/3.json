@@ -1,0 +1,6 @@
+[
+    {"id":1,"name":"蜜雪冰城","address":"琴园路","remark":"很近，就在超市旁边","img":"/static/images/1.png","type":3},
+    {"id":2,"name":"吾饮良品","address":"奥龙美食城","remark":"种类很多","img":"/static/images/1.png","type":3},
+    {"id":3,"name":"麦当劳甜品站","address":"教育超市","remark":"还行","img":"/static/images/1.png","type":3},
+    {"id":4,"name":"珰糖茶饮","address":"湖大琴园33号门面","remark":"附近最好喝的","img":"/static/images/1.png","type":3}
+]

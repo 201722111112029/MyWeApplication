@@ -1,0 +1,7 @@
+[
+    {"id":1,"name":"老街烧烤","address":"漫时区","remark":"连锁品牌","img":"/static/images/1.png","type":1},
+    {"id":2,"name":"化骨绵爪武侠主题烧烤","address":"长鑫家园6号商铺","remark":"别具一格的主题烧烤店","img":"/static/images/1.png","type":1},
+    {"id":3,"name":"温州特色烧烤","address":"三角花园119号","remark":"味道还不错，很近","img":"/static/images/1.png","type":1},
+    {"id":4,"name":"汉森烧烤","address":"学院路9号","remark":"生意非常好","img":"/static/images/1.png","type":1},
+    {"id":5,"name":"蒙古大营烤全羊","address":"七星路十字路口","remark":"烤羊不错，要提前预约","img":"/static/images/1.png","type":1}
+]

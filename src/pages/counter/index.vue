@@ -12,8 +12,8 @@
 </template>
 
 <script>
-
-
+import top from '@/data/top.json'
+import card from '@/components/card'
 export default {
 
   data () {

@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"黄蜀郎鸡公煲","address":"后街","remark":"其他家的鸡公煲不好吃","img":"/static/images/1.png","type":4},
+    {"id":2,"name":"莲心斋素食餐厅","address":"三角花园","remark":"别具特色","img":"/static/images/1.png","type":4},
+    {"id":3,"name":"彭厨","address":"大门口","remark":"不错的川菜","img":"/static/images/1.png","type":4},
+    {"id":4,"name":"珍味坊","address":"大门口","remark":"侧门出去就是，味道不错","img":"/static/images/1.png"},
+    {"id":5,"name":"留香居老北京涮羊肉","address":"现代科技学校","remark":"比较正宗","img":"/static/images/1.png"},
+    {"id":6,"name":"川西坝子","address":"众诚广场","remark":"老牌火锅店","img":"/static/images/1.png","type":4}
+]
