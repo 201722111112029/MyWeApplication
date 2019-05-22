@@ -1,7 +1,7 @@
 <template>
   <div>
     <i-notice-bar icon="systemprompt" loop>
-    {{time}}诺贝尔文学奖获得者莫言将推新书，望周之！！！！！！！
+    {{time}}诺贝尔文学奖获得者莫言将于何时推出下部著作！！！
     </i-notice-bar>
 
     <swiper
@@ -40,12 +40,11 @@
 
 <script>
 import card from '@/components/card'
-import top from '@/data/top.json'
 export default {
   data () {
     return {
       bookList: [],
-      time: '2019年4月3日',
+      time: '2019年5月10日',
       userInfo: {
         nickName: 'mpvue',
         avatarUrl: 'http://mpvue.com/assets/logo.png'
@@ -66,7 +65,7 @@ export default {
         {type:'科幻',img:'/static/images/bookFour.png',"url":'../counter/main?type=4'},
         {type:'历史',img:'/static/images/bookFour.png',"url":'../counter/main?type=5'}
       ],
-      recommand: top
+      recommand: []
     }
   },
   components: {
@@ -88,7 +87,7 @@ export default {
     db.collection('books').get().then(
       res => {
        console.log(res.data)
-        this.bookList = res.data
+        this.recommand = res.data
       }
     )
 
