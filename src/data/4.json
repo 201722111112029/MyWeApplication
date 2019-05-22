@@ -2,7 +2,7 @@
     {"id":1,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
     {"id":2,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
     {"id":3,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
-    {"id":4,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png"},
-    {"id":5,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png"},
+    {"id":4,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
+    {"id":5,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
     {"id":6,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4}
 ]
