@@ -8,7 +8,7 @@ const db = cloud.database()
 exports.main = async (event, context) => {
   const wxContext = cloud.getWXContext()
 
-  await db.collection('books').add({
+  await db.collection('book_card').add({
     // data 字段表示需新增的 JSON 数据
     data: event
   })

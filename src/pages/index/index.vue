@@ -65,7 +65,7 @@ export default {
         {type:'科幻',img:'/static/images/bookFour.png',"url":'../counter/main?type=4'},
         {type:'历史',img:'/static/images/bookFour.png',"url":'../counter/main?type=5'}
       ],
-      recommand: []
+      recommand: [],
     }
   },
   components: {
@@ -82,19 +82,18 @@ export default {
   },
 
   created () {
-      const db = wx.cloud.database({ 
-          env: 'book-a8926e' })
+       const db = wx.cloud.database({ 
+           env: 'book-a8926e' })
     db.collection('books').get().then(
       res => {
        console.log(res.data)
         this.recommand = res.data
       }
     )
-
     // let app = getApp()
-     wx.cloud.callFunction({ name: 'new_book' }).then(
-      res => {console.log(res)}
-)
+    //  wx.cloud.callFunction({ name: 'new_book' }).then(
+    //   res => {console.log(res)}
+// )
   }
 }
 </script>
