@@ -61,7 +61,7 @@ export default {
        grids: [
         {type:'传记',img:'/static/images/bookFour.png',"url":'../counter/main?type=1'},
         {type:'哲学',img:'/static/images/bookFour.png',"url":'../counter/main?type=2'},
-        {type:'催泪',img:'/static/images/bookFour.png',"url":'../counter/main?type=3'},
+        {type:'情感',img:'/static/images/bookFour.png',"url":'../counter/main?type=3'},
         {type:'科幻',img:'/static/images/bookFour.png',"url":'../counter/main?type=4'},
         {type:'历史',img:'/static/images/bookFour.png',"url":'../counter/main?type=5'}
       ],

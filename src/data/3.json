@@ -1,6 +1,6 @@
 [
-    {"id":1,"name":"垂泪","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":3},
-    {"id":2,"name":"垂泪","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":3},
-    {"id":3,"name":"垂泪","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":3},
-    {"id":4,"name":"垂泪","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":3}
+    {"id":1,"name":"目送","address":"龙应台","remark":"这些作品中温情的语言，如一剂醒脑益智的良药，使我们深陷尘世羁绊的心灵，一次次得到解脱和自省。","img":"cloud://book-a8926e.626f-book-a8926e/目送.jpg","type":3},
+    {"id":2,"name":"穆斯林的葬礼","address":"霍达","remark":"穆斯林的葬礼是霍达创作的一部长篇小说，该小说以回族手工匠人梁亦清的玉器作坊奇珍斋升沉起伏为主线，在历史的背景下描写梁家三代人不同的命运变迁，表现了主人公为追求理想和事业，为完善自身素质所发出的蓬勃不息的命运意识。","img":"cloud://book-a8926e.626f-book-a8926e/穆斯林的葬礼.jpg","type":3},
+    {"id":3,"name":"挪威的森林","address":"村上春树","remark":"故事讲述主角纠缠在情绪不稳定且患有精神疾病的直子和开朗活泼的小林绿子之间，展开了自我成长的旅程。","img":"cloud://book-a8926e.626f-book-a8926e/挪威的森林.jpg","type":3},
+    {"id":4,"name":"基督山伯爵","address":"大仲马","remark":"故事讲述19世纪法国皇帝拿破仑“百日王朝”时期，法老号大副爱德蒙·邓蒂斯受船长委托，为拿破仑党人送了一封信，遭到两个卑鄙小人和法官的陷害，被打入黑牢。狱友法利亚神甫向他传授各种知识，并在临终前把埋于基督山岛上的一批宝藏的秘密告诉了他。邓蒂斯越狱后找到了宝藏，成为巨富，从此化名基督山伯爵（水手辛巴德、布索尼神父、威尔莫勋爵），经过精心策划，报答了恩人，惩罚了仇人。","img":"cloud://book-a8926e.626f-book-a8926e/基督山伯爵.jpg","type":3}
 ]

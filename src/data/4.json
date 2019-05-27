@@ -1,8 +1,7 @@
 [
-    {"id":1,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
-    {"id":2,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
-    {"id":3,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
-    {"id":4,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
-    {"id":5,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4},
-    {"id":6,"name":"科幻","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":4}
+    {"id":1,"name":"三体","address":"刘慈欣","remark":"讲述了地球人类文明和三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。其第一部经过刘宇昆翻译后获得了第73届雨果奖最佳长篇小说奖。","img":"cloud://book-a8926e.626f-book-a8926e/三体.jpg","type":4},
+    {"id":2,"name":"沙丘","address":"弗兰克·哈伯特","remark":"给我们描绘了一个真实的富有传奇色彩的科幻小说世界，背景宏大壮阔，情节极为细致复杂，往往是一个大阴谋套着无数小阴谋，而小阴谋又指向大阴谋，悬念与突转层出不穷。","img":"cloud://book-a8926e.626f-book-a8926e/沙丘.jpeg","type":4},
+    {"id":3,"name":"仿生人会梦见电子羊吗？","address":"菲利普·k.·迪克","remark":"主人公里克·德卡德是一名专门追捕逃亡仿生人的赏金猎人。在一次 追捕行动中，里克遭遇了新型仿生人前所未有的挑战。九死之后，能否一生？在与仿生人的接触和较量中，里克发现自己对仿生人的看法和态度有了很大的改变。这种改变究竟是福还是祸？在小说的最后才揭露了鬼才菲利普·迪克的中心思想：什么才是人？","img":"cloud://book-a8926e.626f-book-a8926e/仿生人.jpeg","type":4},
+    {"id":4,"name":"阿努比斯之门","address":"提姆·鲍尔斯","remark":"在古埃及神明的注视下，他将从20世纪回到浪漫时期的伦敦……如果时间是一条冰河，冰层上有通往各个时代的洞……英语教授道尔接受疯狂集团总裁的邀请，前往1810年的伦敦去听浪漫时期诗人柯勒律治演讲。阴错阳差错过“回程”的道尔莫名其妙地被各路人马追杀，落魄一百多年前的伦敦街头。","img":"cloud://book-a8926e.626f-book-a8926e/阿鲁比之门.jpeg","type":4}
+
 ]
