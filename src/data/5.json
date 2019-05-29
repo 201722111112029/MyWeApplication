@@ -1,6 +1,4 @@
 [
-    {"id":1,"name":"历史","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":5},
-    {"id":2,"name":"历史","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":5},
-    {"id":3,"name":"历史","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":5},
-    {"id":4,"name":"历史","address":"测试","remark":"测试","img":"/static/images/bookFour.png","type":5}
+    {"id":1,"name":"明朝那些事儿","address":"当年明月","remark":"语言幽默风趣。对明朝十七帝和其他王公权贵和小人物的命运进行全景展示，尤其对官场政治、战争、帝王心术着墨最多，并加入对当时政治经济制度、人伦道德的演义。","img":"cloud://book-a8926e.626f-book-a8926e/明朝那些事.jpg","type":5},
+    {"id":2,"name":"资治通鉴","address":"司马迁","remark":"《资治通鉴》全书共294卷，约300多万字，书中记载的历史由公元前403年，也就是周威烈王二十三年写起，一直到959年，五代的后周世宗显德六年征淮南为止。是司马光以为君亲政，贤明之道为出发点所编写成的一本巨著，所谓“删削冗长，举撮机要，专取国家盛衰，系生民休戚，善可为法，恶可为戒者，为编年一书，使先后有伦，精粗不杂。”。","img":"cloud://book-a8926e.626f-book-a8926e/资质通鉴.jpg","type":5}
 ]

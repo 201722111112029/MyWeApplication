@@ -22,7 +22,7 @@ export default {
 data () {
     return {
     markers: [{
-      iconPath: '/static/images/dingwei.svg',
+      iconPath: '/static/images/location1.svg',
       id: 0,
       latitude: 30.571331,
       longitude: 114.347997,
@@ -43,7 +43,7 @@ data () {
     }],
     controls: [{
       id: 1,
-      iconPath: '/static/images/Group-.svg',
+      iconPath: '/static/images/Location2.svg',
       position: {
         left: 0,
         top: 300 - 50,

@@ -84,7 +84,7 @@ export default {
   created () {
        const db = wx.cloud.database({ 
            env: 'book-a8926e' })
-    db.collection('books').get().then(
+    db.collection('book_card').get().then(
       res => {
        console.log(res.data)
         this.recommand = res.data
