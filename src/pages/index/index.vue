@@ -65,7 +65,7 @@ export default {
         {type:'科幻',img:'/static/images/bookFour.png',"url":'../counter/main?type=4'},
         {type:'历史',img:'/static/images/bookFour.png',"url":'../counter/main?type=5'}
       ],
-      recommand: [],
+      recommand:[],
     }
   },
   components: {
@@ -84,7 +84,7 @@ export default {
   created () {
        const db = wx.cloud.database({ 
            env: 'book-a8926e' })
-    db.collection('book_card').get().then(
+    db.collection('books').get().then(
       res => {
        console.log(res.data)
         this.recommand = res.data
