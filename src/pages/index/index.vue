@@ -1,7 +1,7 @@
 <template>
   <div>
     <i-notice-bar icon="systemprompt" loop>
-    {{time}}诺贝尔文学奖获得者莫言将于何时推出下部著作！！！
+    {{time}}书吧迎来周年庆典！！！
     </i-notice-bar>
 
     <swiper
@@ -50,8 +50,8 @@ export default {
         avatarUrl: 'http://mpvue.com/assets/logo.png'
       },
       imgUrls: [
-        'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3078637763,533870387&fm=26&gp=0.jpg',
-        'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2823371908,585722294&fm=26&gp=0.jpg',
+        'cloud://book-a8926e.626f-book-a8926e/书吧1.jpg',
+        'cloud://book-a8926e.626f-book-a8926e/书吧.jpg',
         'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1668552235,3376227991&fm=26&gp=0.jpg'
       ],
       indicatorDots: true,
